@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><span class="h1">Blackjack</span></h1>
+    <p id="message-el">Want to play a Round?</p>
+    <p id="cards-el">Cards : </p>
+    <p id="sum-el">Sum : </p>
+    <p class="note">Note: If your cards sum is equal to 21 then you will get a Blackjack, if its sum is less then 21 you have an option to draw a new card and if your cards' sum is greater then 21 you will loss the game.
+        Here Ace card gives 11 points, Jack, Queen and King cards gives 10 points each and others that are number cards gives there respective numbers as points.
+        let's play!
+    </p>
+    <button id="start-el" onclick="start()">START GAME</button>
+    <button id="newCard-el" onclick="newCard()">NEW CARD</button>
+    <script src="script.js"></script>
+</body>
+</html>
